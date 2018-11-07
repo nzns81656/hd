@@ -3,7 +3,7 @@
      
   <cube-page  title="地图" class="option-demo">
     <div slot="content">
-        <baidu-map center="北京" style="height:100vh;width:100%;padding-top:-60px" :zoom="15"></baidu-map>
+        <baidu-map center="北京" :style="{width:mwidth,height:mheight}" :zoom="15"></baidu-map>
   </div>   
   </cube-page>
   </div>
