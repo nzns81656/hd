@@ -1,21 +1,5 @@
 <template>
-  <cube-page  title="登录" class="option-demo">
-    <div slot="content">
-      <div class="options">
-        <div class="option-list">
-           <div class="group">
-            <cube-input placeholder="请输入用户名"  v-model="userName"></cube-input>
-          </div>
-          <div class="group">
-             <cube-input :type="type" placeholder="请输入密码"  :eye='eye' v-model="password" ></cube-input>
-          </div>
-          <div class="group">
-              <cube-button  :primary="true" @click="LoginIn">登录</cube-button>
-          </div>
-        </div>
-      </div>
-    </div>   
-  </cube-page>
+
 </template>
 
 <script type="text/ecmascript-6">

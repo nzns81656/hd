@@ -48,7 +48,7 @@ export default {
       loginByUsername(this.userName, this.password).then(response => {
         if (response) {
           this.loading.hide();
-          this.showAlert("登录成功");
+          this.$router.push({ path: '/login/map' })
         } else {
           this.loading.hide();
         }

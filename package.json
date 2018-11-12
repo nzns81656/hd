@@ -17,6 +17,7 @@
     "axios": "^0.18.0",
     "cube-ui": "~1.11.0",
     "vue": "^2.5.2",
+    "vue-baidu-map": "^0.21.13",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
