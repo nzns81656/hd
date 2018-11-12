@@ -5,7 +5,11 @@ import './cube-ui'
 import App from './App'
 import router from './router'
 import 'amfe-flexible'
+import BaiduMap from 'vue-baidu-map'
 import {ShowMessage, customToast} from './modules/control'
+Vue.use(BaiduMap, {
+  ak: 'dAVCgTnW50hRWsp1bXRfPLPIMLF1nR3b'
+})
 Vue.prototype.showAlert = ShowMessage
 Vue.prototype.customToast = customToast
 Vue.config.productionTip = false
